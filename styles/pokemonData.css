@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'gameFont';
+    src: url('../fonts/PKMN RBYGSC.ttf');
+}
+
+.container {
+    font-family: 'gameFont';
+}
+
+#masthead {
+    background-color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+}
+
+#col0 {
+    background-color: rgba(255, 0, 0, 0.4);
+    max-width: 40%;
+}
+
+#pokemonIMG {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+#type1 {
+    background-color: aqua;
+    text-align: center;
+    color: white;
+}
+
+#type2 {
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+
+#col1 {
+    background-color: rgba(255, 0, 0, 0.35);
+}
+
+#moves {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.move {
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    background: #abdbe3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.move_bug {
+    background: #3b9950;
+}
+
+.move_dark {
+    background: #5a5979
+}
+
+.move_electric {
+    background: #fbfb72
+}
+
+.move_fairy {
+    background: #ea1369
+}
+
+.move_fighting {
+    background: #ef6138
+}
+
+.move_fire {
+    background: #fd4c5a
+}
+
+.move_flying {
+    background: #93b2c7
+}
+
+.move_ghost {
+    background: #906790
+}
+
+.move_grass {
+    background: #27ca51
+}
+
+.move_ground {
+    background: #6e491f
+}
+
+.move_ice {
+    background: #b4ddee;
+}
+
+.move_normal {
+    background: #ca98a7;
+}
+
+.move_poison {
+    background: #5f2e88;
+}
+
+.move_phychic {
+    background: #f81c91;
+}
+
+.move_rock {
+    background: #8b3e21;
+}
+
+.move_grass {
+    background: #42bd94;
+}
+
+.move_water {
+    background: #86a8fc;
+}
+
+.movePP {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.movePOW {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.moveACC {
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.moveName {
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 45%;
+    text-transform: capitalize;
+}
